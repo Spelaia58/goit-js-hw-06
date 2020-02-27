@@ -84,13 +84,4 @@ const users =  [
       age: 39,
     },
   ];
-  //const gotUserNames = users.map((user) => {
-    return user.name;
-});
-console.log(gotUserNames(users));
-const getUserNames = users => {
-    return users.map((user) => {
-        return user.name;
-    });
-  };
-  console.log(getUserNames(users)); 
+   
