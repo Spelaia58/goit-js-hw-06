@@ -118,7 +118,7 @@ console.log(getUserWithEmail(users, 'shereeanthony@kog.com'));
 console.log(getUserWithEmail(users, 'elmahead@omatom.com'));
 
 const getUsersWithAge = (users, min, max) => {
-  return users.filter(users => users.age >= min && users.age <= max);
+  return users.filter(user => user.age >= min && user.age <= max);
 };
 
 console.log(getUsersWithAge(users, 20, 30));
